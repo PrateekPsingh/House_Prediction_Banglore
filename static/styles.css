@@ -1,0 +1,72 @@
+body {
+    background: url("../static/bang.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.7);  /* semi-transparent background */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #1e2832;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #42c95a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #013c09;
+}
+
+#prediction {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
